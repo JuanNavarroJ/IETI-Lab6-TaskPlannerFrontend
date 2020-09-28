@@ -1,7 +1,5 @@
 
-## Despliegue Firebase
-
-https://taskplannerapp-ieti.web.app/
+## Despliegue 
 
 ### Credenciales
 
@@ -21,33 +19,7 @@ Debes seguir el Código de honor del ingeniero de sistemas para defender el est�
 
 ## Desarrollo
 
-Al abrir la aplicación en el navegador nos saldrá un mensaje que si la queremos agregar a la pantalla principal damos click en el letrero.
 
-![1cel](https://user-images.githubusercontent.com/44879884/93689627-fc688200-fa95-11ea-8678-ee550ba5d7c5.jpeg)
-
-Esto nos descargara nuestro Task Planner como una App independiente.
-
-![2cel](https://user-images.githubusercontent.com/44879884/93689620-f96d9180-fa95-11ea-86c5-486bfe44f1c5.jpeg)
-
-Aquí podemos ver el Task Planner abierto tanto en el navegador como en la aplicación propia.
-
-![3cel](https://user-images.githubusercontent.com/44879884/93689621-fa062800-fa95-11ea-901d-6f19dd7b5ac6.jpeg)
-
-Ahora vemos en Task Planner como aplicación y no en el navegador.
-
-![4cel](https://user-images.githubusercontent.com/44879884/93689622-fa062800-fa95-11ea-9740-4e58fc354e2c.jpeg)
-
-Lo mismo podemos ver en el navegador del computador, basta con darle en botón + que sale al final de la dirección url y damos en instalar.
-
-![1dowloadBrowser](https://user-images.githubusercontent.com/44879884/93689619-f8d4fb00-fa95-11ea-9fff-409bfdc1283a.PNG)
-
-Esto nos descarga una aplicación independiente.
-
-![5appDes](https://user-images.githubusercontent.com/44879884/93689623-fa062800-fa95-11ea-8124-9ccbc6cec7b3.PNG)
-
-La cual vemos en esta imagen. 
-
-![6appDeass](https://user-images.githubusercontent.com/44879884/93689626-fbcfeb80-fa95-11ea-8db4-dfad3c577bc9.PNG)
 
 ## Available Scripts
 
