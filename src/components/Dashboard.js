@@ -25,6 +25,7 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 import UserProfile from './UserProfile';
 import NewTask from './NewTask';
 import TaskFilters from './TaskFilters';
+import ListUsers from './ListUsers';
 
 const drawerWidth = 240;
 
@@ -98,7 +99,7 @@ const useStyles = makeStyles((theme) => ({
 localStorage.setItem("name", "Juan David");
 localStorage.setItem("email", "juan.navarro@mail.escuelaing.edu.co");
 
-export default function Dashboard() {
+export default function Dashboard(props) {
   const [tasks, setTasks] = React.useState([{description:"Implement Login View",status:"In Progress",dueDate:"2020-08-27",responsible:{name:"Juan Navarro",email:"juan.navarro@escuelaing"}},
                 {description:"Implement Login Controller",status:"Ready",dueDate:"2020-08-27",responsible:{name:"Juan Navarro",email:"juan.navarro@escuelaing"}},
                 {description:"Facebook Integration",status:"Completed",dueDate:"2020-08-27",responsible:{name:"Juan Navarro",email:"juan.navarro@escuelaing"}}]);
@@ -179,7 +180,8 @@ export default function Dashboard() {
             </Card>
         </div>
         <br/><br/><br/><br/><br/><br/>
-        <TaskFilters></TaskFilters>
+        <TaskFilters/>
+        <ListUsers userList={props.userList}/>
         <br/><br/><br/><br/><br/><br/>
         <Link to="/Login">
             <Button
