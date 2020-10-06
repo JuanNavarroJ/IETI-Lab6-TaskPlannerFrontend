@@ -1,6 +1,7 @@
 
 ## Despliegue 
 
+El contenedor en Azure se encuentra apagado para no cunsumir creditos, para su calificación por favor avisarme para encenderlo.
 http://taskplannerfrontend.herokuapp.com/
 
 ### Credenciales
